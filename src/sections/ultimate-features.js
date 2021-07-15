@@ -4,54 +4,54 @@ import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Feature from 'components/cards/feature';
 
-import icon1 from 'assets/images/icons/1.png';
-import icon2 from 'assets/images/icons/2.png';
-import icon3 from 'assets/images/icons/3.png';
-import icon4 from 'assets/images/icons/4.png';
-import icon5 from 'assets/images/icons/5.png';
-import icon6 from 'assets/images/icons/6.png';
+const icon1 = '/images/icons/1.png';
+const icon2 = '/images/icons/2.png';
+const icon3 = '/images/icons/3.png';
+const icon4 = '/images/icons/4.png';
+const icon5 = '/images/icons/5.png';
+const icon6 = '/images/icons/6.png';
 
 const data = [
   {
     id: 1,
     icon: icon1,
-    path: '#!',
-    title: 'ultimate Email  subscription',
+    path: "#!",
+    title: "Dedicated Workspace",
     description: `Get your info tests delivered at home collect a sample from the your task.`,
   },
   {
     id: 2,
     icon: icon2,
-    path: '#!',
-    title: 'Bolt Performance',
+    path: "#!",
+    title: "High Speed Internet",
     description: `Get your info tests delivered at home collect a sample from the your task.`,
   },
   {
     id: 3,
     icon: icon3,
-    path: '#!',
-    title: 'Secure Transaction',
+    path: "#!",
+    title: "Coffee, Tea, and Snacks",
     description: `Get your info tests delivered at home collect a sample from the your task.`,
   },
   {
     id: 4,
     icon: icon4,
-    path: '#!',
-    title: 'Multiple Options',
+    path: "#!",
+    title: "Beautiful Inveronmnet",
     description: `Get your info tests delivered at home collect a sample from the your task.`,
   },
   {
     id: 5,
     icon: icon5,
-    path: '#!',
-    title: '5 Star Rating service',
+    path: "#!",
+    title: "Access to Office Materials",
     description: `Get your info tests delivered at home collect a sample from the your task.`,
   },
   {
     id: 6,
     icon: icon6,
-    path: '#!',
-    title: 'Integrated with Shopify',
+    path: "#!",
+    title: "Community Networking",
     description: `Get your info tests delivered at home collect a sample from the your task.`,
   },
 ];
@@ -62,7 +62,7 @@ const UltimateFeatures = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Ultimate features you must appreciate"
+          title="Ultimate Services we offer"
           description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred."
         />
         <Box sx={styles.features}>

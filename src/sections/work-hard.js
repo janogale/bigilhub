@@ -3,34 +3,37 @@
 import { jsx, Box, Flex, Container, Image, Text } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import { LearnMore } from 'components/link';
-import workHard from 'assets/images/work-hard.png';
-import emoji from 'assets/images/icons/emoji.png';
-import check from 'assets/images/icons/check-circle.png';
+
+
+// images
+const workHard = '/images/work-hard.png';
+const emoji = '/images/icons/emoji.png';
+const check = '/images/icons/check-circle.png';
 
 const data = [
   {
     id: 1,
-    label: 'Medical and vision',
+    label: "Dedicated Workspace",
   },
   {
     id: 2,
-    label: 'Life insurance',
+    label: "High Speed Internet",
   },
   {
     id: 3,
-    label: '400(k) savings',
+    label: "Beautiful Inveronmnet",
   },
   {
     id: 4,
-    label: 'HSAs and FSAs',
+    label: "Community Networking",
   },
   {
     id: 5,
-    label: 'Commuter benefits',
+    label: "Access to Office Materials",
   },
   {
     id: 6,
-    label: '529 college savings',
+    label: "Coffee, Tea, and Snacks",
   },
 ];
 

@@ -3,8 +3,9 @@
 import { jsx, Box, Container, Image } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import { LearnMore } from 'components/link';
-import customer from 'assets/images/customer.png';
-import emoji from 'assets/images/icons/emoji-3.png';
+
+const customer = '/images/customer.png';
+const emoji = '/images/icons/emoji-3.png';
 
 const HappyCustomer = () => {
   return (
@@ -18,12 +19,12 @@ const HappyCustomer = () => {
             <SectionHeading
               emoji={emoji}
               sx={styles.heading}
-              title="We have more than thousand of worldwide happy customer"
-              description="Coworking offers beautifully crafted workspaces where people can create, connect, and grow their businesses at prime locations in multiple cities."
+              title="We have growing number happy customer"
+              description="Bigil Hub offers beautifully crafted workspaces where people can create, connect, and grow their businesses at prime locations in multiple cities."
             />
-            <Box sx={styles.learnMore}>
+            {/* <Box sx={styles.learnMore}>
               <LearnMore path="#!" />
-            </Box>
+            </Box> */}
           </Box>
         </Box>
       </Container>

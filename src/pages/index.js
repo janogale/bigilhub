@@ -26,9 +26,7 @@ export default function IndexPage() {
         <WorkHard />
         <UltimateFeatures />
         <HappyCustomer />
-        <Blog />
-        <SubscribeUs />
-      </Layout>
+            </Layout>
     </ThemeProvider>
   );
 }

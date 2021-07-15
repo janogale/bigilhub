@@ -1,22 +1,21 @@
-export default [
+const HeaderData = [
   {
-    path: 'home',
-    label: 'Home',
+    path: "home",
+    label: "Home",
   },
   {
-    path: 'services',
-    label: 'Services',
+    path: "services",
+    label: "Services",
   },
   {
-    path: 'features',
-    label: 'Features',
+    path: "features",
+    label: "Features",
   },
+
   {
-    path: 'blog',
-    label: 'Blog',
-  },
-  {
-    path: 'login',
-    label: 'Login',
+    path: "login",
+    label: "Login",
   },
 ];
+
+export default HeaderData;

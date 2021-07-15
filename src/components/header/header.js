@@ -26,11 +26,11 @@ export default function Header() {
                     ))}
                   </Box>
                   <Button variant="text" sx={styles.getStartedDesktop}>
-                    Get Started
+                    Book Now
                   </Button>
                 </Flex>
                 <Button variant="text" sx={styles.getStartedMobile}>
-                  Get Started
+                  Book Now
                 </Button>
                 <DrawerNav />
               </Box>

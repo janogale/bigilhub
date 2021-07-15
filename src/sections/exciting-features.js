@@ -51,7 +51,7 @@ const ExcitingFeatures = () => {
               emoji={emoji}
               sx={styles.heading}
               title="Meet our exciting features that make you wow"
-              description="Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents."
+              description="work at incredible workplace and grow your business with Bigil Hub all-in-one Workspace"
             />
             <Box sx={styles.accordionGroup}>
               <Accordion items={data} />

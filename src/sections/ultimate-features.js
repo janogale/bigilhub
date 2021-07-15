@@ -30,7 +30,7 @@ const data = [
     id: 3,
     icon: icon3,
     path: "#!",
-    title: "Coffee, Tea, and Snacks",
+    title: "Coffee, Tea, and Snacks (paid)",
     description: `Get your info tests delivered at home collect a sample from the your task.`,
   },
   {

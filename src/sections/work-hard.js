@@ -33,7 +33,7 @@ const data = [
   },
   {
     id: 6,
-    label: "Coffee, Tea, and Snacks",
+    label: "Coffee, Tea, and Snacks (paid)",
   },
 ];
 

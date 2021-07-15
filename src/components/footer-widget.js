@@ -5,6 +5,7 @@ import { Link } from 'components/link';
 import { rgba } from 'polished';
 
 const FooterWidget = ({ title, items }) => {
+ 
   return (
     <Box sx={styles.footerWidget}>
       <Heading as="h4">{title}</Heading>
@@ -31,6 +32,9 @@ const styles = {
       lineHeight: 1.68,
       letterSpacing: 'heading',
     },
+    img: {
+      width: '20px'
+    },
     ul: {
       listStyle: 'none',
       margin: '28px 0 0',
@@ -44,6 +48,9 @@ const styles = {
       },
       a: {
         color: rgba('#02073E', 0.8),
+      },  
+      'a:hover':{
+        cursor: 'pointer'
       },
     },
   },

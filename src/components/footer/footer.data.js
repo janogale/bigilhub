@@ -20,10 +20,7 @@ export const menuItems = [
         path: "#!",
         label: "Copyright",
       },
-      {
-        path: "#!",
-        label: "Popular Campaign",
-      },
+    
     ],
   },
   {
@@ -50,21 +47,20 @@ export const menuItems = [
     title: "Connect",
     items: [
       {
-        path: "#!",
+        path: "https://facebook.com/bigilhub",
         icon: facebook,
         label: "Facebook",
       },
       {
-        path: "#!",
+        path: "https://twitter.com/bigilhub",
         icon: twitter,
         label: "Twitter",
       },
       {
-        path: "#!",
+        path: "https://www.instagram.com/bigilhub/",
         icon: instagram,
         label: "Instagram",
       },
-    
     ],
   },
 ];

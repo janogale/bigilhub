@@ -5,7 +5,8 @@ import { useState } from 'react';
 import { rgba } from 'polished';
 import SectionHeading from 'components/section-heading';
 import Input from 'components/input';
-import illustration from 'assets/images/subscribe-bg.png';
+
+const illustration = '/images/subscribe-bg.png';
 
 const SubscribeUs = () => {
   const [checked, setChecked] = useState(false);

@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Box, Flex, Image, Heading, Text } from 'theme-ui';
-import chat from 'assets/images/icons/chat.png';
+const chat = '/images/icons/chat.png';
 import { Link } from 'components/link';
 import { rgba } from 'polished';
 

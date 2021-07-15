@@ -1,20 +1,9 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import {
-  jsx,
-  Box,
-  Container,
-  Heading,
-  Text,
-  Label,
-  Image,
-  Button,
-} from "theme-ui";
-import Input from "components/input";
+import { jsx, Box, Container, Heading, Text, Image } from "theme-ui";
+
 const banner = "/images/banner.png";
-import paypal from "assets/images/paypal.png";
-import google from "assets/images/google.png";
-import dropbox from "assets/images/dropbox.png";
+
 import { rgba } from "polished";
 
 const Banner = () => {

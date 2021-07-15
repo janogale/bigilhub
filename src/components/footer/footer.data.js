@@ -1,134 +1,93 @@
-import facebook from 'assets/images/icons/facebook.png';
-import twitter from 'assets/images/icons/twitter.png';
-import github from 'assets/images/icons/github.png';
-import dribbble from 'assets/images/icons/dribbble.png';
+const  facebook = "/images/icons/facebook.png";
+const  twitter = "/images/icons/twitter.png";
+const instagram = "/images/icons/instagram.png";
+
 
 export const menuItems = [
   {
     id: 2,
-    title: 'About Us',
+    title: "About Us",
     items: [
       {
-        path: '#!',
-        label: 'Support Center',
+        path: "#!",
+        label: "Customer Support",
       },
       {
-        path: '#!',
-        label: 'Customer Support',
+        path: "#!",
+        label: "About Us",
       },
       {
-        path: '#!',
-        label: 'About Us',
+        path: "#!",
+        label: "Copyright",
       },
       {
-        path: '#!',
-        label: 'Copyright',
-      },
-      {
-        path: '#!',
-        label: 'Popular Campaign',
+        path: "#!",
+        label: "Popular Campaign",
       },
     ],
   },
   {
     id: 3,
-    title: 'Our Information',
+    title: "Our Information",
     items: [
       {
-        path: '#!',
-        label: 'Return Policy ',
+        path: "#!",
+        label: "Our Policy ",
       },
       {
-        path: '#!',
-        label: 'Privacy Policy',
+        path: "#!",
+        label: "Office Rules",
       },
       {
-        path: '#!',
-        label: 'Terms & Conditions',
-      },
-      {
-        path: '#!',
-        label: 'Site Map',
-      },
-      {
-        path: '#!',
-        label: 'Store Hours',
+        path: "#!",
+        label: "Office Hours",
       },
     ],
   },
-  {
-    id: 4,
-    title: 'My Account',
-    items: [
-      {
-        path: '#!',
-        label: 'Press inquiries',
-      },
-      {
-        path: '#!',
-        label: 'Social media ',
-      },
-      {
-        path: '#!',
-        label: 'directories',
-      },
-      {
-        path: '#!',
-        label: 'Images & B-roll',
-      },
-      {
-        path: '#!',
-        label: 'Permissions',
-      },
-    ],
-  },
+
   {
     id: 5,
-    title: 'Connect',
+    title: "Connect",
     items: [
       {
-        path: '#!',
+        path: "#!",
         icon: facebook,
-        label: 'Facebook',
+        label: "Facebook",
       },
       {
-        path: '#!',
+        path: "#!",
         icon: twitter,
-        label: 'Twitter',
+        label: "Twitter",
       },
       {
-        path: '#!',
-        icon: github,
-        label: 'Github',
+        path: "#!",
+        icon: instagram,
+        label: "Instagram",
       },
-      {
-        path: '#!',
-        icon: dribbble,
-        label: 'Dribbble',
-      },
+    
     ],
   },
 ];
 
 export const footerNav = [
   {
-    path: '#!',
-    label: 'Home',
+    path: "#!",
+    label: "Home",
   },
   {
-    path: '#!',
-    label: 'Advertise',
+    path: "#!",
+    label: "Advertise",
   },
   {
-    path: '#!',
-    label: 'Supports',
+    path: "#!",
+    label: "Supports",
   },
   {
-    path: '#!',
-    label: 'Marketing',
+    path: "#!",
+    label: "Marketing",
   },
   {
-    path: '#!',
-    label: 'FAQ',
+    path: "#!",
+    label: "FAQ",
   },
 ];

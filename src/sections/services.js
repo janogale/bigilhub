@@ -4,9 +4,10 @@ import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Feature from 'components/cards/feature';
 
-import individual from 'assets/images/icons/individual.png';
-import team from 'assets/images/icons/team.png';
-import org from 'assets/images/icons/org.png';
+const individual = '/images/icons/individual.png';
+const team = '/images/icons/team.png';
+const org = '/images/icons/org.png';
+
 
 const data = [
   {
@@ -35,8 +36,8 @@ const Services = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Successful business start with great feature"
-          description="Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents."
+          title="Successful business start with great space"
+          description="Build an incredible workplace and grow your business with Bigil Hub Coworking Space"
         />
         <Box sx={styles.features}>
           {data?.map((item) => (

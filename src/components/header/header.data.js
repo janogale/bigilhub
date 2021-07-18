@@ -14,7 +14,7 @@ const HeaderData = [
 
   {
     path: "login",
-    label: "Login",
+    label: "",
   },
 ];
 

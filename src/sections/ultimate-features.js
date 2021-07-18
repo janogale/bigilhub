@@ -63,7 +63,7 @@ const UltimateFeatures = () => {
         <SectionHeading
           sx={styles.heading}
           title="Ultimate Services we offer"
-          description="Focus your work and we take care of other things"
+          description="all you need is to focus on is your work, we take care of the rest. With flexible office size and both short and long term office commitments, there is something for everyone here Bigil Hub Coworking"
         />
         <Box sx={styles.features}>
           {data?.map((item) => (

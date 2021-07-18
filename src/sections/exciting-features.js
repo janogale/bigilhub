@@ -10,30 +10,21 @@ const emoji = '/images/icons/emoji-2.png';
 
 const data = [
   {
-    title: 'Organize your project content',
+    title: "Organize your project content",
     contents: (
-      <div>
-        Get your blood tests delivered at let collect sample from the victory of
-        the managements that supplies best design system guidelines ever.
-      </div>
+      <div>Get your seat booked for you right now, start you work. call us on <a href="tel:0634112740">063-4112740</a></div>
     ),
   },
   {
-    title: 'Collaborate your documents easily',
+    title: "Collaborate your documents easily",
     contents: (
-      <div>
-        Get your blood tests delivered at let collect sample from the victory of
-        the managements that supplies best design system guidelines ever.
-      </div>
+      <div>Get your seat booked for you right now, start you work. call us on <a href="tel:0634112740">063-4112740</a></div>
     ),
   },
   {
     title: `Build your team's knowledge base`,
     contents: (
-      <div>
-        Get your blood tests delivered at let collect sample from the victory of
-        the managements that supplies best design system guidelines ever.
-      </div>
+      <div>Get your seat booked for you right now, start you work. call us on <a href="tel:0634112740">063-4112740</a></div>
     ),
   },
 ];
@@ -50,7 +41,7 @@ const ExcitingFeatures = () => {
             <SectionHeading
               emoji={emoji}
               sx={styles.heading}
-              title="Meet our exciting features that make you wow"
+              title="Meet our exciting Services that make you wow"
               description="work at incredible workplace and grow your business with Bigil Hub all-in-one Workspace"
             />
             <Box sx={styles.accordionGroup}>

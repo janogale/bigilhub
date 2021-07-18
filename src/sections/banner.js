@@ -11,15 +11,18 @@ const Banner = () => {
     <Box as="section" id="home" sx={styles.section}>
       <Container>
         <Box sx={styles.contentWrapper}>
+      
           <Box sx={styles.content}>
             <Heading as="h1">
               The home of digital nomads, connecting innovators around the
               world.
             </Heading>
             <Text as="p">
-              We know for a fact that you need a comfortable and cosy office
-              space to work out from, that is why We setup{" "}
-              <strong>BigilHub</strong>.
+              Bigil Hub Coworking Space and Innovation Center locates in the
+              center of Hargeisa City, Omar Hashi Building, opposite of Premiere
+              Bank. <br/> Bigil Hub makes your office experience exceptional. We have created
+              a workspace that supports collaboration, sustains focus, and
+              sparks inspiration.
             </Text>
           </Box>
           <Box as="figure" sx={styles.illustration}>
@@ -42,7 +45,7 @@ const styles = {
     minHeight: [null, null, "100vh", "70vh", "50vh", "100vh"],
     pt: ["100px", null, null, "130px", "25px", null, 0],
     textAlign: ["center", null, "left"],
-  },
+     },
   content: {
     maxWidth: [null, null, null, "75%", "100%"],
     margin: [null, null, null, "0 auto", 0],

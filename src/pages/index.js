@@ -21,10 +21,10 @@ export default function IndexPage() {
           description="BigilHub Coworking Space and Innovation Hub"
         />
         <Banner />
-        <Services />
+        {/* <Services /> */}
         <ExcitingFeatures />
         <WorkHard />
-        <UltimateFeatures />
+        {/* <UltimateFeatures /> */}
         <HappyCustomer />
             </Layout>
     </ThemeProvider>

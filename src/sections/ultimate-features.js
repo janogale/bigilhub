@@ -17,21 +17,21 @@ const data = [
     icon: icon1,
     path: "#!",
     title: "Dedicated Workspace",
-    description: `Get your info tests delivered at home collect a sample from the your task.`,
+    description: `Take a dedicated desk that’s reserved just for you. You can use your Business brand`,
   },
   {
     id: 2,
     icon: icon2,
     path: "#!",
     title: "High Speed Internet",
-    description: `Get your info tests delivered at home collect a sample from the your task.`,
+    description: `Secure, business-grade  multiple WiFi Connections`,
   },
   {
     id: 3,
     icon: icon3,
     path: "#!",
     title: "Coffee, Tea, and Snacks (paid)",
-    description: `Get your info tests delivered at home collect a sample from the your task.`,
+    description: `Easily order Tea, Coffee or Snacks at confort of your desk`,
   },
   {
     id: 4,
@@ -52,7 +52,7 @@ const data = [
     icon: icon6,
     path: "#!",
     title: "Community Networking",
-    description: `Get your info tests delivered at home collect a sample from the your task.`,
+    description: `Regular networking and personal growth events.`,
   },
 ];
 
@@ -63,7 +63,7 @@ const UltimateFeatures = () => {
         <SectionHeading
           sx={styles.heading}
           title="Ultimate Services we offer"
-          description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred."
+          description="Focus your work and we take care of other things"
         />
         <Box sx={styles.features}>
           {data?.map((item) => (

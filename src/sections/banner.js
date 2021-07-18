@@ -20,9 +20,7 @@ const Banner = () => {
             <Text as="p">
               Bigil Hub Coworking Space and Innovation Center locates in the
               center of Hargeisa City, Omar Hashi Building, opposite of Premiere
-              Bank. <br/> Bigil Hub makes your office experience exceptional. We have created
-              a workspace that supports collaboration, sustains focus, and
-              sparks inspiration.
+              Bank. <br/>
             </Text>
           </Box>
           <Box as="figure" sx={styles.illustration}>

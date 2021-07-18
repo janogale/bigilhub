@@ -38,14 +38,14 @@ const data = [
     icon: icon4,
     path: "#!",
     title: "Beautiful Inveronmnet",
-    description: `Get your info tests delivered at home collect a sample from the your task.`,
+    description: `Work Space designed to allow you concentrate your work and make you more productive`,
   },
   {
     id: 5,
     icon: icon5,
     path: "#!",
     title: "Access to Office Materials",
-    description: `Get your info tests delivered at home collect a sample from the your task.`,
+    description: `Get Office materials such us Printing, Secure Storage and IT support`,
   },
   {
     id: 6,

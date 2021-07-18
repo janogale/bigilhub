@@ -47,11 +47,13 @@ const WorkHard = () => {
               emoji={emoji}
               sx={styles.heading}
               title="Don’t work hard, be smart &amp; work smartly. Take a relax sit"
-              description="Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever."
+              description=" Bigil Hub makes your office experience exceptional. We have created
+              a workspace that supports collaboration, sustains focus, and
+              sparks inspiration."
             />
             <Box sx={styles.features}>
               {data?.map(({ id, label }) => (
-                <Flex key={id} as="span" sx={{ alignItems: 'flex-start' }}>
+                <Flex key={id} as="span" sx={{ alignItems: "flex-start" }}>
                   <Image src={check} alt="" />
                   <Text as="span">{label}</Text>
                 </Flex>

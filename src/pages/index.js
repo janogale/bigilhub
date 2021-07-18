@@ -24,7 +24,7 @@ export default function IndexPage() {
         {/* <Services /> */}
         <ExcitingFeatures />
         <WorkHard />
-        {/* <UltimateFeatures /> */}
+        <UltimateFeatures />
         <HappyCustomer />
             </Layout>
     </ThemeProvider>
